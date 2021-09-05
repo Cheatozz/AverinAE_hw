@@ -1,0 +1,13 @@
+git init
+*создаем репозиторий на гитхаб*
+git remote add origin https://github.com/Cheatozz/AverinAE_hw.git
+git branch -M master
+git push -u origin master
+*создаем файл*
+git add .
+git commit -m "file.cpp created"
+git push
+*редактируем файл*
+git add .
+git commit -m "file.cpp was edited"
+git push
